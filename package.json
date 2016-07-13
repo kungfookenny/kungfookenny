@@ -1,0 +1,27 @@
+{
+  "name": "mighty-foundation",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kungfookenny/mighty-foundation"
+  },
+  "devDependencies": {
+    "gulp-eslint": "^2.2.0",
+    "gulp-browserify": "^13.0.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.2.3",
+    "motion-ui": "^1.2.2",
+    "font-awesome": "^4.6.3"
+  },
+  "scripts": {
+    "clean": "sudo rm -rf dist .sass-cache"
+  },
+  "private": true
+}
