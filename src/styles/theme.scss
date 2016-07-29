@@ -55,7 +55,7 @@
   }
 }
 
-@include foundation-everything();
+@include foundation-everything(true);
 
 // Additional Components
 @import 'motion-ui';
