@@ -1,0 +1,72 @@
+// ----------------------------------------------------------------------------
+// Utilities: Typography
+
+// Size
+.u-font-size--tiny { font-size: $font-size-tiny; } // $var mighty-settings.scss
+.u-font-size--small { font-size: $font-size-small; } // $var mighty-settings.scss
+.u-font-size--normal-semi { font-size: $font-size-normal-semi; } // $var mighty-settings.scss
+.u-font-size--normal { font-size: $font-size-normal; } // $var mighty-settings.scss
+.u-font-size--normal-extra { font-size: $font-size-normal-extra; } // $var mighty-settings.scss
+.u-font-size--medium-semi { font-size: $font-size-medium-semi; } // $var mighty-settings.scss
+.u-font-size--medium { font-size: $font-size-medium; } // $var mighty-settings.scss
+.u-font-size--medium-extra { font-size: $font-size-medium-extra; } // $var mighty-settings.scss
+.u-font-size--large-semi { font-size: $font-size-large-semi; } // $var mighty-settings.scss
+.u-font-size--large { font-size: $font-size-large; } // $var mighty-settings.scss
+.u-font-size--xlarge { font-size: $font-size-xlarge; } // $var mighty-settings.scss
+
+// Size by %
+.u-font-percent--70 { font-size: 70%; }
+.u-font-percent--70 { font-size: 75%; }
+.u-font-percent--80 { font-size: 80%; }
+.u-font-percent--85 { font-size: 85%; }
+.u-font-percent--90 { font-size: 90%; }
+.u-font-percent--95 { font-size: 95%; }
+.u-font-percent--100 { font-size: 100%; }
+.u-font-percent--110 { font-size: 110%; }
+.u-font-percent--115 { font-size: 115%; }
+.u-font-percent--120 { font-size: 120%; }
+.u-font-percent--125 { font-size: 125%; }
+.u-font-percent--130 { font-size: 130%; }
+.u-font-percent--135 { font-size: 135%; }
+.u-font-percent--140 { font-size: 140%; }
+
+// Colors
+.u-font-color--primary { color: $primary-color; } // #var foundation-settings.scss
+.u-font-color--secondary { color: $secondary-color; } // #var foundation-settings.scss
+.u-font-color--tertiary { color: $tertiary-color; } // #var mighty-settings.scss
+.u-font-color--white { color: $white; } // #var mighty-settings.scss
+
+// Line Height
+.u-line-height--tiny { line-height: $line-height-tiny; } // #var mighty-settings.scss
+.u-line-height--small { line-height: $line-height-small; } // #var mighty-settings.scss
+.u-line-height--normal { line-height: $line-height-normal; } // #var mighty-settings.scss
+.u-line-height--normal-extra { line-height: $line-height-normal-extra; } // #var mighty-settings.scss
+.u-line-height--medium { line-height: $line-height-medium; } // #var mighty-settings.scss
+.u-line-height--medium-extra { line-height: $line-height-medium-extra; } // #var mighty-settings.scss
+.u-line-height--large { line-height: $line-height-large; } // #var mighty-settings.scss
+.u-line-height--xlarge { line-hei-sht: $line-height-xlarge; } // #var mighty-settings.scss
+
+// Set typography color. Defaults to white.
+@mixin mighty-font-color($color: $white,$color-shift: darken,$color-shift-amount: 20,$color-hover: $color) {
+  color: $color;
+  h1, h2, h3, h4, h5, h6 {
+    color: $color;
+  }
+  a {
+    color: $color;
+    &:visited {
+      color: $color;
+    }
+    &:hover, &:focus {
+      @if $color-shift == 'darken' {
+        color: darken($color-hover, $color-shift-amount);
+      } 
+      @else if $color-shift == 'lighten' {
+        color: lighten($color-hover, $color-shift-amount);
+      }
+    }
+  }
+}
+
+// Set all font elements color to white
+.u-font--white { @include mighty-font-color($white, darken, 20); }

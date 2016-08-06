@@ -1,0 +1,63 @@
+// Utilities
+@import 'utilities/typography';
+
+// Use this on .row to set it to full width
+.u-full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+}
+
+// Common section padding
+.u-common-padding {
+  padding-top: rem-calc(60);
+  padding-bottom: rem-calc(60);
+}
+
+.u-common-border-width {
+  border-width: 2px;
+}
+
+// Logo
+.o-brand {
+  @extend .u-line-height--normal;
+  text-transform: lowercase;
+  span {
+    @extend .u-font-color--tertiary;
+    font-family: $fancy-font-heavy;
+    text-transform: uppercase;
+    font-size: 72.5%;
+  }
+  &__title {
+     @extend .u-font-color--secondary;
+     text-transform: uppercase;
+     font-size: 32.3%;
+  }
+}
+
+.c-large-hero {
+  background: radial-gradient($primary-color, darken($primary-color, 10) 140%);
+  height: 100vh;
+}
+
+.c-social {
+  margin: 0;
+  a {
+    padding: 0 rem-calc(2);
+  }
+  &__github { font-size: 90%; }
+  &__linkedin {}
+  &__email { font-size: 85%; }
+}
+
+$social-color: darken($tertiary-color, 20);
+.c-social--primary-light {
+  a {
+    color: $social-color;
+    &:hover, &:focus {
+      color: darken($social-color, 5);
+    }
+  }
+}
+

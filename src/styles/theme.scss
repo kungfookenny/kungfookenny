@@ -1,5 +1,6 @@
 // Global Settings
-@import 'settings';
+@import 'mighty-settings';
+@import 'foundation-settings';
 @import 'foundation';
 
 // Components - comment out what you don't need
@@ -63,4 +64,4 @@
 @include motion-ui-animations;
 
 @import 'font-awesome';
-@import 'layout/base';
+@import 'mightyfoundation/base';
