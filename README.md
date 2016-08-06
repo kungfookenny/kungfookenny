@@ -1,3 +1,3 @@
-# Kungfookenny
+# KungFooKenny
 
 Theme for kungfookenny.com
