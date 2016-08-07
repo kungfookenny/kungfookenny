@@ -87,8 +87,9 @@
   }
 }
 
-.c-large-hero {
-  background: radial-gradient($primary-color, darken($primary-color, 10) 140%);
+.c-homepage-hero {
+  background: radial-gradient(rgba($primary-color, .6), rgba(darken($primary-color, 10), .9) 90%), url(../images/IMG_5415.JPG);
+  background-size: cover;
   height: 100vh;
 }
 
