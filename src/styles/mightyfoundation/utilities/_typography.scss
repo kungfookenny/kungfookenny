@@ -39,75 +39,75 @@
     color: lighten($color, $color-shift-amount);
   }
 }
-.u-fontColor--primary { color: $primary-color; }
-.u-fontColor--secondary { color: $secondary-color; }
-.u-fontColor--tertiary { color: $tertiary-color; }
-.u-fontColor--white { color: $white; }
+.u-font-color--primary { color: $primary-color; }
+.u-font-color--secondary { color: $secondary-color; }
+.u-font-color--tertiary { color: $tertiary-color; }
+.u-font-color--white { color: $white; }
 
 .u-fontColor--primary {
   color: $primary-color;
-  &.lighten--90 { @include mightyFontColor($primary-color, lighten, 90); }
-  &.lighten--80 { @include mightyFontColor($primary-color, lighten, 80); }
-  &.lighten--70 { @include mightyFontColor($primary-color, lighten, 70); }
-  &.lighten--60 { @include mightyFontColor($primary-color, lighten, 60); }
-  &.lighten--50 { @include mightyFontColor($primary-color, lighten, 50); }
-  &.lighten--40 { @include mightyFontColor($primary-color, lighten, 40); }
-  &.lighten--30 { @include mightyFontColor($primary-color, lighten, 30); }
-  &.lighten--20 { @include mightyFontColor($primary-color, lighten, 20); }
-  &.lighten--10 { @include mightyFontColor($primary-color, darken, 10); }
-  &.darken--90 { @include mightyFontColor($primary-color, darken, 90); }
-  &.darken--80 { @include mightyFontColor($primary-color, darken, 80); }
-  &.darken--70 { @include mightyFontColor($primary-color, darken, 70); }
-  &.darken--60 { @include mightyFontColor($primary-color, darken, 60); }
-  &.darken--50 { @include mightyFontColor($primary-color, darken, 50); }
-  &.darken--40 { @include mightyFontColor($primary-color, darken, 40); }
-  &.darken--30 { @include mightyFontColor($primary-color, darken, 30); }
-  &.darken--20 { @include mightyFontColor($primary-color, darken, 20); }
-  &.darken--10 { @include mightyFontColor($primary-color, darken, 10); }
+  &.lighten--90 { @include mighty-font-color($primary-color, lighten, 90); }
+  &.lighten--80 { @include mighty-font-color($primary-color, lighten, 80); }
+  &.lighten--70 { @include mighty-font-color($primary-color, lighten, 70); }
+  &.lighten--60 { @include mighty-font-color($primary-color, lighten, 60); }
+  &.lighten--50 { @include mighty-font-color($primary-color, lighten, 50); }
+  &.lighten--40 { @include mighty-font-color($primary-color, lighten, 40); }
+  &.lighten--30 { @include mighty-font-color($primary-color, lighten, 30); }
+  &.lighten--20 { @include mighty-font-color($primary-color, lighten, 20); }
+  &.lighten--10 { @include mighty-font-color($primary-color, darken, 10); }
+  &.darken--90 { @include mighty-font-color($primary-color, darken, 90); }
+  &.darken--80 { @include mighty-font-color($primary-color, darken, 80); }
+  &.darken--70 { @include mighty-font-color($primary-color, darken, 70); }
+  &.darken--60 { @include mighty-font-color($primary-color, darken, 60); }
+  &.darken--50 { @include mighty-font-color($primary-color, darken, 50); }
+  &.darken--40 { @include mighty-font-color($primary-color, darken, 40); }
+  &.darken--30 { @include mighty-font-color($primary-color, darken, 30); }
+  &.darken--20 { @include mighty-font-color($primary-color, darken, 20); }
+  &.darken--10 { @include mighty-font-color($primary-color, darken, 10); }
 }
 
 .u-fontColor--secondary {
   color: $secondary-color;
-  &.lighten--90 { @include mightyFontColor($secondary-color, lighten, 90); }
-  &.lighten--80 { @include mightyFontColor($secondary-color, lighten, 80); }
-  &.lighten--70 { @include mightyFontColor($secondary-color, lighten, 70); }
-  &.lighten--60 { @include mightyFontColor($secondary-color, lighten, 60); }
-  &.lighten--50 { @include mightyFontColor($secondary-color, lighten, 50); }
-  &.lighten--40 { @include mightyFontColor($secondary-color, lighten, 40); }
-  &.lighten--30 { @include mightyFontColor($secondary-color, lighten, 30); }
-  &.lighten--20 { @include mightyFontColor($secondary-color, lighten, 20); }
-  &.lighten--10 { @include mightyFontColor($secondary-color, darken, 10); }
-  &.darken--90 { @include mightyFontColor($secondary-color, darken, 90); }
-  &.darken--80 { @include mightyFontColor($secondary-color, darken, 80); }
-  &.darken--70 { @include mightyFontColor($secondary-color, darken, 70); }
-  &.darken--60 { @include mightyFontColor($secondary-color, darken, 60); }
-  &.darken--50 { @include mightyFontColor($secondary-color, darken, 50); }
-  &.darken--40 { @include mightyFontColor($secondary-color, darken, 40); }
-  &.darken--30 { @include mightyFontColor($secondary-color, darken, 30); }
-  &.darken--20 { @include mightyFontColor($secondary-color, darken, 20); }
-  &.darken--10 { @include mightyFontColor($secondary-color, darken, 10); }
+  &.lighten--90 { @include mighty-font-color($secondary-color, lighten, 90); }
+  &.lighten--80 { @include mighty-font-color($secondary-color, lighten, 80); }
+  &.lighten--70 { @include mighty-font-color($secondary-color, lighten, 70); }
+  &.lighten--60 { @include mighty-font-color($secondary-color, lighten, 60); }
+  &.lighten--50 { @include mighty-font-color($secondary-color, lighten, 50); }
+  &.lighten--40 { @include mighty-font-color($secondary-color, lighten, 40); }
+  &.lighten--30 { @include mighty-font-color($secondary-color, lighten, 30); }
+  &.lighten--20 { @include mighty-font-color($secondary-color, lighten, 20); }
+  &.lighten--10 { @include mighty-font-color($secondary-color, darken, 10); }
+  &.darken--90 { @include mighty-font-color($secondary-color, darken, 90); }
+  &.darken--80 { @include mighty-font-color($secondary-color, darken, 80); }
+  &.darken--70 { @include mighty-font-color($secondary-color, darken, 70); }
+  &.darken--60 { @include mighty-font-color($secondary-color, darken, 60); }
+  &.darken--50 { @include mighty-font-color($secondary-color, darken, 50); }
+  &.darken--40 { @include mighty-font-color($secondary-color, darken, 40); }
+  &.darken--30 { @include mighty-font-color($secondary-color, darken, 30); }
+  &.darken--20 { @include mighty-font-color($secondary-color, darken, 20); }
+  &.darken--10 { @include mighty-font-color($secondary-color, darken, 10); }
 }
 
 .u-fontColor--tertiary {
   color: $tertiary-color;
-  &.lighten--90 { @include mightyFontColor($tertiary-color, lighten, 90); }
-  &.lighten--80 { @include mightyFontColor($tertiary-color, lighten, 80); }
-  &.lighten--70 { @include mightyFontColor($tertiary-color, lighten, 70); }
-  &.lighten--60 { @include mightyFontColor($tertiary-color, lighten, 60); }
-  &.lighten--50 { @include mightyFontColor($tertiary-color, lighten, 50); }
-  &.lighten--40 { @include mightyFontColor($tertiary-color, lighten, 40); }
-  &.lighten--30 { @include mightyFontColor($tertiary-color, lighten, 30); }
-  &.lighten--20 { @include mightyFontColor($tertiary-color, lighten, 20); }
-  &.lighten--10 { @include mightyFontColor($tertiary-color, darken, 10); }
-  &.darken--90 { @include mightyFontColor($tertiary-color, darken, 90); }
-  &.darken--80 { @include mightyFontColor($tertiary-color, darken, 80); }
-  &.darken--70 { @include mightyFontColor($tertiary-color, darken, 70); }
-  &.darken--60 { @include mightyFontColor($tertiary-color, darken, 60); }
-  &.darken--50 { @include mightyFontColor($tertiary-color, darken, 50); }
-  &.darken--40 { @include mightyFontColor($tertiary-color, darken, 40); }
-  &.darken--30 { @include mightyFontColor($tertiary-color, darken, 30); }
-  &.darken--20 { @include mightyFontColor($tertiary-color, darken, 20); }
-  &.darken--10 { @include mightyFontColor($tertiary-color, darken, 10); }
+  &.lighten--90 { @include mighty-font-color($tertiary-color, lighten, 90); }
+  &.lighten--80 { @include mighty-font-color($tertiary-color, lighten, 80); }
+  &.lighten--70 { @include mighty-font-color($tertiary-color, lighten, 70); }
+  &.lighten--60 { @include mighty-font-color($tertiary-color, lighten, 60); }
+  &.lighten--50 { @include mighty-font-color($tertiary-color, lighten, 50); }
+  &.lighten--40 { @include mighty-font-color($tertiary-color, lighten, 40); }
+  &.lighten--30 { @include mighty-font-color($tertiary-color, lighten, 30); }
+  &.lighten--20 { @include mighty-font-color($tertiary-color, lighten, 20); }
+  &.lighten--10 { @include mighty-font-color($tertiary-color, darken, 10); }
+  &.darken--90 { @include mighty-font-color($tertiary-color, darken, 90); }
+  &.darken--80 { @include mighty-font-color($tertiary-color, darken, 80); }
+  &.darken--70 { @include mighty-font-color($tertiary-color, darken, 70); }
+  &.darken--60 { @include mighty-font-color($tertiary-color, darken, 60); }
+  &.darken--50 { @include mighty-font-color($tertiary-color, darken, 50); }
+  &.darken--40 { @include mighty-font-color($tertiary-color, darken, 40); }
+  &.darken--30 { @include mighty-font-color($tertiary-color, darken, 30); }
+  &.darken--20 { @include mighty-font-color($tertiary-color, darken, 20); }
+  &.darken--10 { @include mighty-font-color($tertiary-color, darken, 10); }
 }
 
 // Line Height
