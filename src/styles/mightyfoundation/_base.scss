@@ -26,19 +26,29 @@
   max-width: 50%;
 }
 
+.button {
+  border-radius: $global-radius;
+  text-transform: lowercase;
+}
+
 // Common section padding
 .u-common-padding {
-  padding-top: rem-calc(60);
-  padding-bottom: rem-calc(60);
+  padding-top: rem-calc(80);
+  padding-bottom: rem-calc(80);
 }
 
 .u-common-border-width {
   border-width: 2px;
 }
 
+.u-bg-primary { background-color: $primary-color; }
+.u-bg-secondary { background-color: $secondary-color; }
+.u-bg-tertiary { background-color: $tertiary-color; }
+
 // Logo
 .o-brand {
   @extend .u-line-height--normal;
+  @extend .u-font-color--primary;
   text-transform: lowercase;
   span {
     @extend .u-font-color--tertiary;
@@ -50,6 +60,30 @@
      @extend .u-font-color--secondary;
      text-transform: uppercase;
      font-size: 32.3%;
+  }
+}
+
+.o-heading {
+  @extend .u-line-height--normal;
+  text-transform: lowercase;
+  span {
+    font-family: $fancy-font-heavy;
+    text-transform: uppercase;
+    font-size: 72.5%;
+  }
+}
+
+.o-section {
+  &--short-column{
+    max-width: rem-calc(680);
+  }
+  &__heading {
+    margin-bottom: rem-calc(40);
+    text-align: center;
+  }
+  &__download {
+    margin-top: rem-calc(40);
+    text-align: center;
   }
 }
 

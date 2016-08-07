@@ -120,6 +120,15 @@
 .u-line-height--large { line-height: $line-height-large; }
 .u-line-height--xlarge { line-height: $line-height-xlarge; }
 
+// Margin Bottom
+
+.u-margin-bottom-10 { margin-bottom: rem-calc(10); }
+.u-margin-bottom-20 { margin-bottom: rem-calc(20); }
+.u-margin-bottom-30 { margin-bottom: rem-calc(30); }
+.u-margin-bottom-40 { margin-bottom: rem-calc(40); }
+.u-margin-bottom-50 { margin-bottom: rem-calc(50); }
+.u-margin-bottom-60 { margin-bottom: rem-calc(60); }
+
 // Set typography color. Defaults to white.
 @mixin mighty-font-color-decendents($color: $white,$color-shift: darken,$color-shift-amount: 20,$color-hover: $color) {
   color: $color;
