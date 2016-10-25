@@ -16,7 +16,7 @@ $mf-white: #fff;
 
 $tertiary-color: #b9b5bc;
 
-$mf-font-color: darken(#a2a1a4, 30);
+$mf-font-color: darken(#a2a1a4, 25);
 
 // Typograpy
 $font-size-tiny: .75rem; // 12px
@@ -57,6 +57,9 @@ $line-height-xlarge: 1.6;
 
 $fancy-font: 'Proxima Nova', Helvetica, Arial, sans-serif;
 $fancy-font-heavy: 'Proxima Nova Heavy', Helvetica, Arial, sans-serif;
+
+// Animations
+$globalTransition: all .3s ease-out;
 
 
 

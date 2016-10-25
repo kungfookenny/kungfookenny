@@ -8,24 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/dist/theme.min.css">
   </head>
-  <body>
+  <body id="top">
 
     <!-- Content goes here -->
-    <header class="header">
-      <div class="row">
-        <div class="header__brand columns medium-6">
-          <div class="o-brand">Brandon<span>Still</span></div>
+    <header class="c-header c-header--sticky c-header--top">
+      <div class="row u-full-width">
+        <div class="c-header__brand columns medium-6">
+          <a class="o-brand" href="#top">Brandon<span>Still</span></a>
         </div>
-        <div class="header__nav columns medium-6">
-          <ul class="menu align-right" data-magellan>
+        <div class="c-header__nav columns medium-6">
+          <ul class="menu align-right">
             <li>
-              <a href="#about">About</a>
+              <a class="c-header__link" href="#about">About</a>
             </li>
             <li>
-              <a href="#work">Work</a>
+              <a class="c-header__link" href="#work">Work</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a class="c-header__link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -35,9 +35,164 @@
     <main>
       <article>
 
-        <section class="c-homepage-hero row u-full-width">
-          <div class="column align-self-middle text-center">
-            <h1><div class="o-brand u-font-percent--125 u-font-color--white">Brandon<span>Still</span><div class="o-brand__title">DESIGNER / FRONT-END DEVELOPER</div></div></h1>
+        <section class="c-homepage-hero">
+          <div class="row c-homepage-hero__row u-full-width">
+            <div class="column align-self-middle text-center">
+              <h1><div class="o-brand u-font-percent--125 u-font-color--white o-brand--shadow">Brandon<span>Still</span><div class="o-brand__title">DESIGNER / FRONT-END DEVELOPER</div></div></h1>
+            </div>
+          </div>
+        </section>
+
+        <a class="o-bullet" href="#about"><span class="o-bullet__arrow o-bullet__arrow--animate"></span></a>
+
+        <section id="about" class="o-section u-common-padding u-font-size--normal-extra">
+          <div class="row align-center">
+            <div class="column o-section--short-column">
+              <h2 class="o-section__heading o-heading text-center">about<span>ME</span></h2>
+              <p>My name is Brandon <em>(my middle name is Kenny if you were wondering)</em> and I love to design and develop fantastic online experiences.</p>
+              <p class="text-center o-section__download"><a href="assets/docs/brandon_still_resume_0.3.0.pdf" class="button secondary">Resume</a></p>
+            </div>
+          </div>
+        </section>
+
+        <div class="o-bullet o-bullet--primary"></div>
+
+        <section id="work" class="c-work u-common-padding u-bg-primary u-font--white">
+          <div class="row u-short-width">
+            <div class="column text-center">
+              <div class="row">
+                <div class="column">
+                  <h2 class="o-section__heading o-heading text-center o-heading--reverse">my<span>WORK</span></h2>
+                </div>
+              </div>
+              <div class="row o-project o-project--primary o-project--demo">
+                <div class="column">
+                  <div class="row">
+                    <div class="column o-project__heading">
+                      <h3 class="o-heading text-center o-heading--reverse"><span>WORDPRESS</span></h3>
+                      <p>theme design & metrics / custom framework / lead developer & network admin</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="column small-12 medium-12 o-project__item">
+                      <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
+                      <a href="http://acquire.1.digitalinsuranceoffice.com" class="o-project__demo" target="_blank">
+                        <div class="button hollow o-project__button">view demo</div>
+                      </a>
+                    </div>
+                    <div class="column small-12 medium-4 o-project__item">
+                      <img src="assets/images/10x-desktop.jpg" alt="10x - Wordpress Theme">
+                      <a href="http://10x.1.digitalinsuranceoffice.com" class="o-project__demo" target="_blank">
+                        <div class="button hollow o-project__button">view demo</div>
+                      </a>
+                    </div>
+                    <div class="column small-12 medium-4 o-project__item">
+                      <img src="assets/images/aspire-desktop.jpg" alt="Aspire - Wordpress Theme">
+                      <a href="http://aspire.1.digitalinsuranceoffice.com" class="o-project__demo" target="_blank">
+                        <div class="button hollow o-project__button">view demo</div>
+                      </a>
+                    </div>
+                    <div class="column small-12 medium-4 o-project__item">
+                      <img src="assets/images/perspective-desktop.jpg" alt="Perspective - Wordpress Theme">
+                      <a href="http://perspective.1.digitalinsuranceoffice.com" class="o-project__demo" target="_blank">
+                        <div class="button hollow o-project__button">view demo</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row o-project o-project--primary">
+                <div class="column">
+                  <div class="row">
+                    <div class="column o-project__heading">
+                      <h3 class="o-heading text-center o-heading--reverse"><span>REMARKETING</span></h3>
+                      <p>design</p>
+                    </div>
+                  </div>
+                  <div class="row small-up-2 medium-up-4 large-up-4">
+                    <div class="column o-project__item">
+                      <img src="assets/images/rm-free-report-csr.jpg" alt="Remarketing - CSR Free Report">
+                    </div>
+                    <div class="column o-project__item">
+                      <img src="assets/images/rm-mobiquote.jpg" alt="Remarketing - MobiQuote">
+                    </div>
+                    <div class="column o-project__item">
+                      <img src="assets/images/rm-free-book.jpg" alt="Remarketing - Agency Revolution Free Report">
+                    </div>
+                    <div class="column o-project__item">
+                      <img src="assets/images/rm-kaplansky.jpg" alt="Remarketing - Kaplansky Insurance">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row o-project o-project--primary">
+                <div class="column">
+                  <div class="row">
+                    <div class="column o-project__heading">
+                      <h3 class="o-heading text-center o-heading--reverse"><span>10x Workbook</span></h3>
+                      <p>layout design / workbook tools</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="column small-12 medium-6 o-project__item">
+                      <img src="assets/images/10x-book-cover.jpg" alt="10x Workbook Cover">
+                    </div>
+                    <div class="column small-12 medium-6">
+                      <div class="row">
+                        <div class="column small-12 medium-6 o-project__item">
+                          <img src="assets/images/10x-book-1.jpg" alt="10x Workbook Page">
+                        </div>
+                        <div class="column small-12 medium-6 o-project__item">
+                          <img src="assets/images/10x-book-2.jpg" alt="10x Workbook Page">
+                        </div>
+                        <div class="column small-12 medium-6 o-project__item">
+                          <img src="assets/images/10x-book-3.jpg" alt="10x Workbook Page">
+                        </div>
+                        <div class="column small-12 medium-6 o-project__item">
+                          <img src="assets/images/10x-book-4.jpg" alt="10x Workbook Page">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row o-project o-project--primary">
+                <div class="column">
+                  <div class="row">
+                    <div class="column o-project__heading">
+                      <h3 class="o-heading text-center o-heading--reverse">
+                    </div>
+                  </div>
+                  <div class="row small-up-1 medium-up-3 large-up-3">
+                    <div class="column o-project__item">
+                      <h3 class="o-heading text-center o-heading--reverse"><span>QUANTUM SNAPSHOT</span></h3>
+                      <p>email template</p>
+                      <img src="assets/images/email-qs.jpg" alt="Quantum Snapshot Email Template">
+                    </div>
+                    <div class="column o-project__item">
+                      <h3 class="o-heading text-center o-heading--reverse"><span>FIREFLY</span></h3>
+                      <p>product landing page</p>
+                      <img src="assets/images/ff-landing-page.jpg" alt="Firefly Product Landing Page">
+                    </div>
+                    <div class="column o-project__item">
+                      <h3 class="o-heading text-center o-heading--reverse"><span>SURVIVAL HANDBOOK</span></h3>
+                      <p>book cover</p>
+                      <img src="assets/images/survival-handbook.jpg" alt="Survival Handbook Book Cover">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href class="button o-project__moreButton">View More</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="o-bullet o-bullet--tertiary"></div>
+
+        <section id="contact" class="c-contact row u-bg-tertiary u-font--white u-common-padding u-full-width">
+          <div class="column text-center">
+            <h2 class="o-heading text-center">contact<span>ME</span></h2>
+            <p class="u-font-size--normal-extra">Let's get in touch.</p>
             <p class="c-social c-social--primary-light u-font-size--medium-extra">
               <a class="c-social__github" href="https://github.com/kungfookenny"><i class="fa fa-github" aria-hidden="true"></i></a> 
               <a class="c-social__linkedin" href="https://www.linkedin.com/in/brandonstill"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -46,34 +201,8 @@
           </div>
         </section>
 
-        <section id="about" class="o-section u-common-padding u-font-size--normal-extra" classdata-magellan-target="about">
-          <div class="row align-center">
-            <div class="column o-section--short-column">
-              <h2 class="o-section__heading o-heading text-center">About<span>Me</span></h2>
-              <p>My name is Brandon <em>(my middle name is Kenny if you were wondering)</em> and I love code. Nam euismod fermentum justo, non consequat orci sollicitudin sed. Integer diam tortor, porttitor at porttitor ac, eleifend eget tortor. Praesent a placerat orci. Sed dapibus est eu neque maximus, a suscipit nulla malesuada. Nulla purus felis, placerat ac hendrerit nec, facilisis in ipsum.</p>
-              <p>Nulla semper non orci vel tincidunt. Pellentesque nunc turpis, accumsan eu iaculis vitae, congue non elit. Donec nec porttitor erat. Aenean eu nisi interdum, volutpat orci nec, mattis nulla. Etiam egestas, neque sit amet hendrerit dignissim, nisi nibh dapibus elit, nec hendrerit orci est id lorem. Vivamus iaculis convallis sollicitudin.</p>
-              <p class="text-center o-section__download"><a href="/assets/docs/brandon_still_resume_0.3.0.pdf" class="button large">Resume</a></p>
-            </div>
-          </div>
-        </section>
-
-        <section id="work" class="c-work row u-common-padding u-bg-primary u-full-width u-font--white " classdata-magellan-target="about">
-          <div class="column text-center">
-            <h2 class="o-heading">About<span>Me</span></h2>
-            <p class="u-font-size--normal-extra">My name is Brandon <em>(my middle name is Kenny if you were wondering)</em>. 
-          </div>
-        </section>
-
       </article>
     </main>
-
-
-
-    <div class="row">
-      <div class="columns small-12">
-        Page content goes here.
-      </div>
-    </div>
 
     <!-- Content ends here -->
 
