@@ -1,5 +1,4 @@
 *.DS_Store
-/assets/dist/*
 /assets/fonts/*
 /src/scripts/vendor/*
 /src/styles/vendor/*
