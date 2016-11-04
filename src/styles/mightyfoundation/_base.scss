@@ -141,6 +141,7 @@ $o-bullet-margin: $o-bullet-size / 2;
 .o-project {
   margin-bottom: rem-calc(15);
   padding: rem-calc(15) rem-calc(15) 0;
+  border-radius: rem-calc(30);
   @include breakpoint(medium up) {
     margin-bottom: rem-calc(30);
     padding: rem-calc(15) rem-calc(15) 0;
