@@ -23,7 +23,7 @@ function addNavBackround() {
 // Animate arrow in hero section
 function arrowAnimate() {
   var currentTop = $(window).scrollTop(),
-    arrow = $('.o-bullet__arrow--animate');
+    arrow = $('.o-bullet__arrow');
   if (currentTop > 0) {
     arrow.removeClass('o-bullet__arrow--animate');
   } else {
