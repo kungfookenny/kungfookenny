@@ -142,6 +142,14 @@ $o-bullet-margin: $o-bullet-size / 2;
   margin-bottom: rem-calc(15);
   padding: rem-calc(15) rem-calc(15) 0;
   border-radius: rem-calc(30);
+  @include breakpoint(small only) {
+    margin-left: rem-calc(15) !important;
+    margin-right: rem-calc(15) !important;
+  }
+  @include breakpoint(medium only) {
+    margin-left: rem-calc(15) !important;
+    margin-right: rem-calc(15) !important;
+  }
   @include breakpoint(medium up) {
     margin-bottom: rem-calc(30);
     padding: rem-calc(15) rem-calc(15) 0;
@@ -149,7 +157,10 @@ $o-bullet-margin: $o-bullet-size / 2;
   &__column { padding: 0; }
   &__item {
     position: relative;
-    padding-bottom: rem-calc(30);
+    margin-bottom: rem-calc(30);
+    img {
+      display: flex;
+    }
   }
   &__heading { padding: rem-calc(15) 0; }
   &__button {
@@ -159,21 +170,20 @@ $o-bullet-margin: $o-bullet-size / 2;
     border-color: $white !important;
     transform: translateY(rem-calc(-10));
   }
+  &__link {
+    position: relative;
+  }
   &__demo {
     @extend .u-globalTransition;
     position: absolute;
     display: flex;
     background-color: transparent;
     top: 0;
-    left: rem-calc(10);
-    right: rem-calc(10);
-    bottom: rem-calc(30);
+    left: 0;
+    right: 0;
+    bottom: 0;
     opacity: 0;
     align-items: center;
-    @include breakpoint(medium up) {
-      left: rem-calc(15);
-      right: rem-calc(15);
-    }
     &:hover {
       @extend .u-globalTransition;
       opacity: 1;
