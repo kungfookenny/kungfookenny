@@ -2,19 +2,19 @@
 
 var gulp = require('gulp'),
     eslint = require('gulp-eslint'),
-    browserify = require('gulp-browserify'),
     sass = require('gulp-sass'),
     prefix = require('gulp-autoprefixer'),
     cleanCSS = require('gulp-clean-css'),
     rename = require('gulp-rename'),
-    uglify = require('gulp-uglify');
+    uglify = require('gulp-uglify'),
+    include = require('gulp-include');
 
 // Lint, compile and minify javascript
 gulp.task('js', function() {
   gulp.src('./src/scripts/*.js')
     .pipe(eslint())
     .pipe(eslint.format())
-    .pipe(browserify().on('error', showError))
+    .pipe(include())
     .pipe(uglify().on('error', showError))
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('./assets/dist/'));
@@ -26,11 +26,11 @@ gulp.task('css', function() {
     .pipe(sass({
       includePaths: [
         'src/styles/vendor/foundation/scss',
-        'src/styles/vendor/motion-ui/src',
-        'src/styles/vendor/font-awesome/scss'
+        'src/styles/vendor/font-awesome/scss',
+        'src/styles/vendor/slick-carousel/scss'
       ]}
     ).on('error', showError))
-    .pipe(prefix('last 2 versions'))
+    .pipe(prefix('last 3 versions'))
     .pipe(cleanCSS())
     .pipe(rename({ suffix: '.min' }))
     .pipe(gulp.dest('./assets/dist/'));
@@ -38,7 +38,7 @@ gulp.task('css', function() {
 
 // Lint, compile and minify javascript: on save
 gulp.task('watch', function() {
-  gulp.watch(['./src/scripts/*.js'], ['js']);
+  gulp.watch(['./src/scripts/**/*.js'], ['js']);
   gulp.watch(['./src/styles/**/*.scss'], ['css']);
 });
 
