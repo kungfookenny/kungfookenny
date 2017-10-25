@@ -1,7 +1,21 @@
 .c-homepage-hero {
+  position: relative;
   &__row {
-    background: radial-gradient(rgba($primary-color, .6), rgba(darken($primary-color, 10), .9) 90%), url(../images/homepage-hero.jpg);
-    background-size: cover;
     height: 100vh;
+  }
+  &__bg {
+    &:before {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      content: '';
+      background: radial-gradient(rgba($primary-color, .6), rgba(darken($primary-color, 10), .9) 90%);
+      z-index: 1;
+    }
+  }
+  &__bgImage {
+    background-image: url(../images/homepage-hero.jpg);
+    background-size: cover;
+    position: center;
   }
 }

@@ -8,7 +8,7 @@
       function updateParallax(initial) {
         var containerHeight;
         var $media = $this.children('.u-parallax__item');
-        if (windowWidth < 601) {
+        if (windowWidth < 640) {
           containerHeight = ($this.height() > 0) ? $this.height() : $media.height();
         }
         else {
