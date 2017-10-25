@@ -1,0 +1,11 @@
+.o-section {
+  &--short-column { max-width: rem-calc(680); }
+  &__heading {
+    margin-bottom: rem-calc(40);
+    text-align: center;
+  }
+  &__download {
+    margin-top: rem-calc(40);
+    text-align: center;
+  }
+}

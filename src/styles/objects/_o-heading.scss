@@ -1,0 +1,13 @@
+.o-heading {
+  @extend .u-line-height--normal;
+  text-transform: lowercase;
+  span {
+    font-family: $fancy-font-heavy;
+    color: lighten($header-color, 20);
+    text-transform: uppercase;
+    font-size: 72.5%;
+  }
+  &--reverse { 
+    span { @extend .u-font-color--tertiary; } 
+  }
+}

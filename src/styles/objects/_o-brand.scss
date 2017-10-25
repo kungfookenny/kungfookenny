@@ -1,0 +1,21 @@
+.o-brand {
+  @extend .u-line-height--normal;
+  @extend .u-font-color--primary;
+  transition: all .3s ease-out;
+  text-transform: lowercase;
+  visibility: visible;
+  font-style: normal;
+  &--slide { margin-left: 0; }
+  &--shadow { text-shadow: rem-calc(-1) rem-calc(2) rem-calc(1) rgba(black,.15) }
+  span {
+    @extend .u-font-color--tertiary;
+    font-family: $fancy-font-heavy;
+    text-transform: uppercase;
+    font-size: 72.5%;
+  }
+  &__title {
+    @extend .u-font-color--secondary;
+    text-transform: uppercase;
+    font-size: 32.3%;
+  }
+}

@@ -1,0 +1,18 @@
+.c-social {
+  margin: 0;
+  a {
+    @extend .u-global-transition;
+    padding: 0 rem-calc(2);
+    &:hover { @extend .u-global-transition; }
+  }
+  &__github { font-size: 90%; }
+  &__linkedin {}
+  &__email { font-size: 85%; }
+  &--primary-light {
+    a {
+      color: $white;
+      &:visited { color: $white; }
+      &:hover, &:focus { color: darken($white, 14); }
+    }
+  }
+}

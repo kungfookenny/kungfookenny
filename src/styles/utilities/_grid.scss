@@ -1,0 +1,10 @@
+// Use this on .row to set it to full width
+
+.u-full-width {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+}
+
+.u-short-width { max-width: rem-calc(940); }

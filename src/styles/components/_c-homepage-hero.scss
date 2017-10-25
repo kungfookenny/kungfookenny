@@ -1,0 +1,7 @@
+.c-homepage-hero {
+  &__row {
+    background: radial-gradient(rgba($primary-color, .6), rgba(darken($primary-color, 10), .9) 90%), url(../images/homepage-hero.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+}

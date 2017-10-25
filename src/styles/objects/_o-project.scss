@@ -1,0 +1,63 @@
+.o-project {
+  display: none;
+  margin-bottom: rem-calc(15);
+  padding: rem-calc(15) rem-calc(15) rem-calc(30);
+  border-radius: rem-calc(30);
+  @include breakpoint(small only) {
+    margin-left: rem-calc(15) !important;
+    margin-right: rem-calc(15) !important;
+  }
+  @include breakpoint(medium only) {
+    margin-left: rem-calc(15) !important;
+    margin-right: rem-calc(15) !important;
+  }
+  @include breakpoint(medium up) {
+    margin-bottom: rem-calc(30);
+    padding: rem-calc(15) rem-calc(15) rem-calc(30);
+  }
+  &__column { padding: 0; }
+  &__item {
+    position: relative;
+    margin-bottom: rem-calc(30);
+    img {
+      display: flex;
+    }
+  }
+  &__heading { padding: rem-calc(15) 0; }
+  &__button {
+    @extend .u-global-transition;
+    margin: 0 auto;
+    color: $white !important;
+    border-color: $white !important;
+    transform: translateY(rem-calc(-10));
+  }
+  &__link {
+    position: relative;
+  }
+  &__demo {
+    @extend .u-global-transition;
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    align-items: center;
+    &:hover {
+      @extend .u-global-transition;
+      opacity: 1;
+      background-color: rgba(black, .6);
+      & .o-project__button {
+        @extend .u-global-transition;
+        transform: translateY(0);
+      }
+    } 
+  }
+  &__moreButton { background-color: lighten($primary-color, 14); }
+  &--primary { background-color: darken($primary-color, 14); }
+  &.is-viewable {
+    display: flex; 
+  }
+}

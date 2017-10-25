@@ -1,0 +1,40 @@
+.c-header {
+  transition: $global-transition;
+  box-shadow: 0 0 rem-calc(5) 0 rgba(black,.2);
+  background-color: rgba($white, .95);
+  padding: 0;
+  &--top {
+    transition: $global-transition;
+    background-color: transparent;
+    padding: rem-calc(5) 0;
+    box-shadow: none;
+    .c-header__link {
+      color: $white;
+      &:visited, &:active, &:focus { color: $white; }
+      &:hover { color: darken($white, 14); }
+    }
+  }
+  .o-brand {
+    transition: $global-transition;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  &--logo {
+    .o-brand {
+      transition: $global-transition;
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  &--sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+  }
+  &__brand {
+    display: flex;
+    align-items: center;
+  }
+}
