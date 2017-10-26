@@ -3,7 +3,7 @@
   $.fn.smoothScroll = function () {
     var $this = $(this);
     var $mainHeader = $('.c-header');
-    var topOffset = $('.c-header').height();
+    var topOffset = $mainHeader.height();
 
     $this.click(function(e) {
       e.preventDefault();
