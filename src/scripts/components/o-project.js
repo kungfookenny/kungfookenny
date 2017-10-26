@@ -26,10 +26,6 @@ function viewProject(e) {
   }
 };
 
-// $('.o-project').each(function (e) {
-//   if (e >= 1) $(this).hide();
-// });
-
 // Show new project
 $('.o-project__moreButton').on('click', viewProject);
 

@@ -12,8 +12,6 @@
         var logoHalfHeight = $hero.find('.o-brand').height() / 2;
         var heroHeight = $('.c-homepage-hero').height(); // move this
         var logoTrigger = heroHeight / 2 + logoHalfHeight - headerHeight;
-        console.log(heroHeight);
-        console.log(logoTrigger);
         if (currentTop > 0) {
           $this.removeClass('c-header--top');
         } else {
