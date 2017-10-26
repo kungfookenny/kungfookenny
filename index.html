@@ -21,19 +21,19 @@
     <!-- Content goes here -->
     <header class="c-header c-header--sticky c-header--top">
       <div class="row u-full-width">
-        <div class="c-header__brand columns medium-6">
-          <a class="o-brand" href="#top">Brandon<span>Still</span></a>
+        <div class="c-header__brand column medium-6">
+          <a class="o-brand u-smooth-scroll" href="#top">Brandon<span>Still</span></a>
         </div>
-        <div class="c-header__nav columns medium-6">
+        <div class="c-header__nav column medium-6">
           <ul class="menu align-right">
             <li>
-              <a class="c-header__link" href="#about">About</a>
+              <a class="c-header__link u-smooth-scroll" href="#about">About</a>
             </li>
             <li>
-              <a class="c-header__link" href="#work">Work</a>
+              <a class="c-header__link u-smooth-scroll" href="#work">Work</a>
             </li>
             <li>
-              <a class="c-header__link" href="#contact">Contact</a>
+              <a class="c-header__link u-smooth-scroll" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -45,14 +45,17 @@
         <section class="c-homepage-hero">
           <div class="row c-homepage-hero__row u-full-width">
             <div class="column align-self-middle text-center">
-              <h1><div class="o-brand u-font-percent--125 u-font-color--white o-brand--shadow">Brandon<span>Still</span><div class="o-brand__title">DESIGNER / UI DEVELOPER</div></div></h1>
+              <h1><div class="o-brand u-font-percent--125 u-font-color--white o-brand--shadow">Brandon<span>Still</span><div class="o-brand__title">DESIGNER / DEVELOPER</div></div></h1>
             </div>
+          </div>
+          <div class="c-homepage-hero__bg u-parallax">
+            <div class="c-homepage-hero__bgImage u-parallax__item"></div>
           </div>
         </section>
 
-        <a class="o-bullet" href="#about"><span class="o-bullet__arrow o-bullet__arrow--animate"></span></a>
+        <a class="o-bullet o-bullet--more u-smooth-scroll" href="#about"><span class="o-bullet__arrow"></span></a>
 
-        <div id="about" class="o-section u-common-padding u-font-size--normal-extra">
+        <div id="about" class="o-section u-global-padding u-font-size--normal-extra">
           <div class="row align-center">
             <div class="column o-section--short-column">
               <h2 class="o-section__heading o-heading text-center">about<span>ME</span></h2>
@@ -64,117 +67,62 @@
 
         <div class="o-bullet o-bullet--primary"></div>
 
-        <section id="work" class="c-work u-common-padding u-bg-primary u-font--white">
-          <div class="row u-short-width">
+        <section id="work" class="c-work u-global-padding u-bg-primary u-font--white">
+          <div class="row">
             <div class="column text-center">
               <div class="row">
                 <div class="column">
                   <h2 class="o-section__heading o-heading text-center o-heading--reverse">my<span>WORK</span></h2>
                 </div>
               </div>
-              <div class="row o-project o-project--primary o-project--demo">
-                <div class="column">
+              <div class="row o-project o-project--primary o-project--demo is-viewable">
+                <div class="column small-12">
                   <div class="row">
                     <div class="column o-project__heading">
                       <h3 class="o-heading text-center o-heading--reverse"><span>DIGITAL INSURANCE OFFICE</span></h3>
                       <p>theme design & metrics / custom frameworks / lead developer & network admin</p>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="column small-12 medium-12 o-project__item">
-                      <div class="o-project__link">
-                        <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
-                        <a href="http://acquire.1.digitalinsuranceoffice.com" class="o-project__demo" target="_blank">
-                          <div class="button hollow o-project__button">view demo</div>
-                        </a>
-                      </div>
+                  <div class="row collapse">
+                    <div class="column small-12 medium-12 large-8">
+                      <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
                     </div>
-                    <div class="column small-12 medium-6 o-project__item">
-                      <div class="o-project__link">
-                        <img src="assets/images/worth-desktop.jpg" alt="Worth Insurance">
-                        <a href="http://www.worthins.com" class="o-project__demo" target="_blank">
-                          <div class="button hollow o-project__button">view site</div>
-                        </a>
+                    <div class="column small-12 medium-12 large-4">
+                      <div class="row collapse">
+                        <div class="column small-12">
+                          <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
+                        </div>
                       </div>
-                    </div>
-                    <div class="column small-12 medium-6 o-project__item">
-                      <div class="o-project__link">
-                        <img src="assets/images/perspective-desktop.jpg" alt="Perspective - Wordpress Theme">
-                        <a href="http://perspective.1.digitalinsuranceoffice.com" class="o-project__demo" target="_blank">
-                          <div class="button hollow o-project__button">view demo</div>
-                        </a>
+                      <div class="row collapse">
+                        <div class="column small-12">
+                          <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="row o-project o-project--primary o-project--demo">
-                <div class="column">
-                  <div class="row">
-                    <div class="column small-12 medium-6 o-project__item">
-                      <h3 class="o-heading text-center o-heading--reverse"><span>AGENCY REVOLUTION</span></h3>
-                      <p>wordpress theme development / responsive design</p>
-                      <div class="o-project__link">
-                        <img src="assets/images/ar-desktop.jpg" alt="Agency Revolution Website">
-                        <a href="http://www.agencyrevolution.com" class="o-project__demo" target="_blank">
-                          <div class="button hollow o-project__button">view site</div>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="column small-12 medium-6 o-project__item">
-                      <h3 class="o-heading text-center o-heading--reverse"><span>RUSSELL INSURANCE GROUP</span></h3>
-                      <p>custom dnn skin design / development</p>
-                      <div class="o-project__link">
-                        <img src="assets/images/rigl-desktop.jpg" alt="RIGL">
-                        <a href="http://www.rigl.ca" class="o-project__demo" target="_blank">
-                          <div class="button hollow o-project__button">view site</div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row o-project o-project--primary">
-                <div class="column">
-                  <div class="row small-up-1 medium-up-2 large-up-2">
-                    <div class="column o-project__item">
-                      <h3 class="o-heading text-center o-heading--reverse"><span>QUANTUM SNAPSHOT</span></h3>
-                      <p>email template design</p>
-                      <img src="assets/images/email-qs.jpg" alt="Quantum Snapshot Email Template">
-                    </div>
-                    <div class="column o-project__item">
-                      <h3 class="o-heading text-center o-heading--reverse"><span>SURVIVAL HANDBOOK</span></h3>
-                      <p>book cover design</p>
-                      <img src="assets/images/survival-handbook-2.jpg" alt="Survival Handbook Book Cover">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row o-project o-project--primary">
-                <div class="column">
+                <div class="column small-12">
                   <div class="row">
                     <div class="column o-project__heading">
-                      <h3 class="o-heading text-center o-heading--reverse"><span>10x Workbook</span></h3>
-                      <p>layout design / workbook tools</p>
+                      <h3 class="o-heading text-center o-heading--reverse"><span>DIGITAL INSURANCE OFFICE</span></h3>
+                      <p>theme design & metrics / custom frameworks / lead developer & network admin</p>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="column small-12 medium-6 o-project__item">
-                      <img src="assets/images/10x-book-cover-2.jpg" alt="10x Workbook Cover">
+                  <div class="row collapse">
+                    <div class="column small-12 medium-12 large-8">
+                      <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
                     </div>
-                    <div class="column small-12 medium-6">
-                      <div class="row">
-                        <div class="column small-12 medium-6 o-project__item">
-                          <img src="assets/images/10x-book-1.jpg" alt="10x Workbook Page">
+                    <div class="column small-12 medium-12 large-4">
+                      <div class="row collapse">
+                        <div class="column small-12">
+                          <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
                         </div>
-                        <div class="column small-12 medium-6 o-project__item">
-                          <img src="assets/images/10x-book-2.jpg" alt="10x Workbook Page">
-                        </div>
-                        <div class="column small-12 medium-6 o-project__item">
-                          <img src="assets/images/10x-book-3.jpg" alt="10x Workbook Page">
-                        </div>
-                        <div class="column small-12 medium-6 o-project__item">
-                          <img src="assets/images/10x-book-4.jpg" alt="10x Workbook Page">
+                      </div>
+                      <div class="row collapse">
+                        <div class="column small-12">
+                          <img src="assets/images/acquire-desktop.jpg" alt="Acquire - Wordpress Theme">
                         </div>
                       </div>
                     </div>
@@ -188,7 +136,7 @@
 
         <div class="o-bullet o-bullet--tertiary"></div>
 
-        <section id="contact" class="c-contact row u-bg-tertiary u-font--white u-common-padding u-full-width">
+        <section id="contact" class="c-contact row u-bg-tertiary u-font--white u-global-padding u-full-width">
           <div class="column text-center">
             <h2 class="o-heading text-center">contact<span>ME</span></h2>
             <p class="u-font-size--normal-extra">Let’s get in touch.</p>
