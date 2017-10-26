@@ -39,6 +39,6 @@ $(document).foundation();
 //=require ./components/u-parallax.js
 //=require ./components/u-smooth-scroll.js
 //=require ./components/c-header.js
-//=require ./components/o-arrow.js
+//=require ./components/o-bullet.js
 //=require ./components/o-project.js
 
