@@ -8,9 +8,9 @@
 @include foundation-global-styles;
 
 // @include foundation-grid;
-@include foundation-flex-grid;
+// @include foundation-flex-grid;
 @include foundation-flex-classes;
-// @include foundation-xy-grid-classes;
+@include foundation-xy-grid-classes;
 // @include foundation-prototype-classes;
 
 @include foundation-typography;
