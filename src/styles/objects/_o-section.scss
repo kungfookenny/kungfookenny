@@ -1,5 +1,8 @@
 .o-section {
-  &--short-column { max-width: rem-calc(680); }
+  &--short-column { 
+    padding: 0 rem-calc(30) !important;
+    max-width: rem-calc(720); 
+  }
   &__heading {
     margin-bottom: rem-calc(40);
     text-align: center;
@@ -7,5 +10,8 @@
   &__download {
     margin-top: rem-calc(40);
     text-align: center;
+  }
+  &__button {
+    color: $white !important;
   }
 }

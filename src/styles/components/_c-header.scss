@@ -1,4 +1,6 @@
 .c-header {
+  transform: translateZ(0);
+  position: relative;
   transition: $global-transition;
   box-shadow: 0 0 rem-calc(5) 0 rgba(black,.2);
   background-color: rgba($white, .95);
@@ -14,11 +16,26 @@
       &:hover { color: darken($white, 14); }
     }
   }
+  &__list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0;
+  }
+  &__item {
+    flex: 0 0 auto;
+  }
+  &__link {
+    padding: rem-calc(12) rem-calc(10);
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 1;
+  }
   .o-brand {
     transition: $global-transition;
     visibility: hidden;
     opacity: 0;
-    transform: translateX(-15px);
+    transform: translateX(rem-calc(-15));
   }
   &--logo {
     .o-brand {

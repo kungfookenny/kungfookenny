@@ -18,4 +18,9 @@
     background-size: cover;
     position: center;
   }
+  .o-brand {
+    @include breakpoint(medium up) {
+      font-size: 125%;
+    }
+  }
 }
