@@ -20,6 +20,7 @@ $o-bullet-margin: $o-bullet-size / 2;
     width: 100%;
     background-color: rgba(#fff, 1);
     border-radius: 50%;
+    top: 0;
   }
   &--more {
     &:before {
