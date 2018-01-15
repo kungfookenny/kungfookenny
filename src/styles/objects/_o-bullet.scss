@@ -43,6 +43,16 @@ $o-bullet-margin: $o-bullet-size / 2;
       background-color: $tertiary-color;
     } 
   }
+  &--tertiary-light { 
+    &:before {
+      background-color: lighten($tertiary-color ,14);
+    } 
+  }
+  &--white {
+    :before {
+      background-color: $white;
+    } 
+  }
   &--more {
     transition: $global-transition;
     transform: translateY(rem-calc(-60)) scale(1.15);

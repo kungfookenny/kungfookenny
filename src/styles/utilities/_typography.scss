@@ -154,3 +154,12 @@
 // Set all font elements color to white
 .u-font--white { @include mighty-font-color-decendents($white, darken, 20); }
 .u-font--bodyFont { @include mighty-font-color-decendents($body-font-color, darken, 14); }
+
+// Alignment
+
+.u-text-center-mobile {
+  text-align: center;
+  @include breakpoint(large up) {
+    text-align: left;
+  }
+}

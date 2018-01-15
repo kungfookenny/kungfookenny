@@ -8,10 +8,24 @@
     text-align: center;
   }
   &__download {
-    margin-top: rem-calc(40);
-    text-align: center;
+    margin-top: rem-calc(30);
+  }
+  &__img {
+    border-radius: 50%;
+    max-height: 260px;
+    margin-bottom: rem-calc(30);
   }
   &__button {
     color: $white !important;
+    &--primary-light {
+      background-color: lighten($primary-color, 14); 
+      &:visited { background-color: lighten($primary-color, 14); }
+      &:hover, &:active, &:focus { background-color: darken($primary-color, 7); }
+    }
+    &--secondary-dark {
+      background-color: darken($secondary-color, 7); 
+      &:visited { background-color: darken($secondary-color, 7); }
+      &:hover, &:active, &:focus { background-color: darken($secondary-color, 21); }
+    }
   }
 }

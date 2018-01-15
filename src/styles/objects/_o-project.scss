@@ -26,6 +26,9 @@
   &__aside {
     text-align: center;
     background-color: darken($primary-color, 18);
+    &--primary { background-color: $primary-color;}
+    &--secondary { background-color: darken($secondary-color, 14);}
+    &--tertiary { background-color: darken($tertiary-color, 40);}
     @include breakpoint(large up) {
       text-align: left;
     }
@@ -55,16 +58,15 @@
     border-radius: 0;
     border: 0;
     &--3 {
-      background-color: lighten($primary-color, 0);
-      
+      background-color: lighten($primary-color, 5);
+      border-left: rem-calc(1) solid darken($primary-color, 24);
     }
     &--2 {
-      background-color: lighten($primary-color, 5);
-      border-right: rem-calc(1) solid darken($primary-color, 24);
+      background-color: lighten($primary-color, 10);
+      border-left: rem-calc(1) solid darken($primary-color, 24);
     }
     &--1 {
-      background-color: lighten($primary-color, 10);
-      border-right: rem-calc(1) solid darken($primary-color, 24);
+      background-color: lighten($primary-color, 15);
     }
   }
   &__button {
@@ -82,14 +84,16 @@
       background-color: lighten($primary-color, 14);
     }
     &:hover, &:active, &:focus {
-      background-color: darken($primary-color, 7);
+      background-color: $primary-color;
     }
     &--noMore {
-      color: $white !important;
-      background-color: darken($primary-color, 7) !important;
+      //color: $white !important;
+      //background-color: $tertiary-color !important;
     }
   }
-  &--primary { background-color: darken($primary-color, 14); }
+  &--primary { background-color: darken($primary-color, 7); }
+  &--secondary { background-color: $secondary-color; }
+  &--tertiary { background-color: $tertiary-color; }
   &.is-viewable {
     display: flex; 
   }
