@@ -19,9 +19,9 @@ function viewProject(e) {
       $wrapper.removeAttr('style');
       $button.removeAttr('style');
       if ( viewable + 1 >= totalProjects ) {
-        $button.text(noMore).addClass('o-project__moreButton--noMore');
+        $button.attr('disabled', true).addClass('o-project__moreButton--noMore').text(noMore);
       } else {
-        $button.text(viewMore).blur();
+        $button.blur().text(viewMore);
       }
     });
   }
