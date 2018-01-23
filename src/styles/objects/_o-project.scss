@@ -57,17 +57,10 @@
     margin: 0 !important;
     border-radius: 0;
     border: 0;
-    &--3 {
-      background-color: lighten($primary-color, 5);
-      border-left: rem-calc(1) solid darken($primary-color, 24);
-    }
-    &--2 {
-      background-color: lighten($primary-color, 10);
-      border-left: rem-calc(1) solid darken($primary-color, 24);
-    }
-    &--1 {
-      background-color: lighten($primary-color, 15);
-    }
+    &--3 { background-color: lighten($primary-color, 5); }
+    &--2 { background-color: lighten($primary-color, 10); }
+    &--1 { background-color: lighten($primary-color, 15); }
+    &--border { border-right: rem-calc(1) solid darken($primary-color, 24); }
   }
   &__button {
     @extend .u-global-transition;
