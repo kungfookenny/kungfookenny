@@ -6,6 +6,12 @@
   font-style: normal;
   &--slide { margin-left: 0; }
   &--shadow { text-shadow: rem-calc(-1) rem-calc(2) rem-calc(1) rgba(black,.15) }
+  &--white {
+    color: white;
+    &:hover, &:active, &:focus {
+      color: white;
+    }
+  }
   span {
     @extend .u-font-color--tertiary;
     font-family: $fancy-font-heavy;
