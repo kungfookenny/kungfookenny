@@ -6,6 +6,9 @@
   &__heading {
     margin-bottom: rem-calc(40);
     text-align: center;
+    &--content {
+      margin-top: rem-calc(30);
+    }
   }
   &__download {
     margin-top: rem-calc(30);
@@ -14,6 +17,13 @@
     border-radius: 50%;
     max-height: 260px;
     margin-bottom: rem-calc(30);
+  }
+  &__media {
+    margin-top: rem-calc(40);
+    margin-bottom: rem-calc(40);
+  }
+  &__spacer {
+    height: rem-calc(60);
   }
   &__button {
     color: $white !important;
