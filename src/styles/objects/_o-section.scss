@@ -22,6 +22,14 @@
     margin-top: rem-calc(40);
     margin-bottom: rem-calc(40);
   }
+  &__image {
+    margin-bottom: rem-calc(15);
+    max-height: rem-calc(300);
+    @include breakpoint(medium up) {
+      margin-bottom: 0;
+      max-height: inherit;
+    }
+  }
   &__spacer {
     height: rem-calc(60);
   }
