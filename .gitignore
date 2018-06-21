@@ -3,4 +3,6 @@
 /src/scripts/vendor/*
 /src/styles/vendor/*
 /node_modules/*
+/assets/docs/*
+/assets/dist/*
 *.log
