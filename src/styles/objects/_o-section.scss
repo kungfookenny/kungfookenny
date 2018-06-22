@@ -1,4 +1,10 @@
 .o-section {
+  &__fancy-link {
+    border-bottom: rem-calc(2) dotted $anchor-color;
+    &:hover {
+      border-bottom: rem-calc(2) dotted $anchor-color-hover;
+    }
+  }
   &--short-column { 
     padding: 0 rem-calc(30) !important;
     max-width: rem-calc(720); 
