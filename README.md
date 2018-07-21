@@ -1,6 +1,6 @@
-# KungFooKenny
+# brandonstill.io
 
-KungFooKenny is theme for kungfookenny.com utilizing [ZURB Foundation](http://foundation.zurb.com).
+Theme for brandonstill.io utilizing [ZURB Foundation](http://foundation.zurb.com).
 
 ## Quick start
 
@@ -12,14 +12,11 @@ KungFooKenny is theme for kungfookenny.com utilizing [ZURB Foundation](http://fo
     # Install dependencies
     npm install 
 
-    # Symlink devDependencies
-    src/install/link
-
     # Move dependencies and clean up node_modules folder to save space
     src/install/preen
 
   ```
-4. To compile & minify CSS and Javascript assets use `gulp watch` or `gulp`
+4. To compile & minify CSS and Javascript assets use `npm run-script watch` or `npm run-script build`
 
 ## Features
 
