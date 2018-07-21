@@ -1,9 +1,9 @@
 {
-  "name": "kungfookenny-theme",
+  "name": "brandonstill.io",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kungfookenny/kungfookenny-theme"
+    "url": "https://github.com/brandonstill/brandonstill.io"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
