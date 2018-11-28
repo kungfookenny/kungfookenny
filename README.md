@@ -12,8 +12,11 @@ Theme for brandonstill.io utilizing [ZURB Foundation](http://foundation.zurb.com
     # Install dependencies
     npm install 
 
-    # Move dependencies and clean up node_modules folder to save space
-    src/install/preen
+    # Watch
+    npm run watch 
+
+    # Build for production
+    npm run build
 
   ```
 4. To compile & minify CSS and Javascript assets use `npm run-script watch` or `npm run-script build`
