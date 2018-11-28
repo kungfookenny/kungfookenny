@@ -1,36 +1,37 @@
 // -- Include dependencies
-//=require ./vendor/what-input/js/what-input.min.js
+//=require ../../node_modules/what-input/dist/what-input.min.js
 
 // -- Foundation plugins: comment out what you don't need
-//=require ./vendor/foundation/js/plugins/foundation.core.js
-//=require ./vendor/foundation/js/plugins/foundation.abide.js
-//=require ./vendor/foundation/js/plugins/foundation.accordion.js
-//=require ./vendor/foundation/js/plugins/foundation.accordionMenu.js
-//=require ./vendor/foundation/js/plugins/foundation.drilldown.js
-//=require ./vendor/foundation/js/plugins/foundation.dropdown.js
-//=require ./vendor/foundation/js/plugins/foundation.dropdownMenu.js
-//=require ./vendor/foundation/js/plugins/foundation.equalizer.js
-//=require ./vendor/foundation/js/plugins/foundation.interchange.js
-//=require ./vendor/foundation/js/plugins/foundation.magellan.js
-//=require ./vendor/foundation/js/plugins/foundation.offcanvas.js
-//=require ./vendor/foundation/js/plugins/foundation.orbit.js
-//=require ./vendor/foundation/js/plugins/foundation.responsiveMenu.js
-//=require ./vendor/foundation/js/plugins/foundation.responsiveToggle.js
-//=require ./vendor/foundation/js/plugins/foundation.reveal.js
-//=require ./vendor/foundation/js/plugins/foundation.slider.js
-//=require ./vendor/foundation/js/plugins/foundation.sticky.js
-//=require ./vendor/foundation/js/plugins/foundation.tabs.js
-//=require ./vendor/foundation/js/plugins/foundation.toggler.js
-//=require ./vendor/foundation/js/plugins/foundation.tooltip.js
-//=require ./vendor/foundation/js/plugins/foundation.util.box.js
-//=require ./vendor/foundation/js/plugins/foundation.util.keyboard.js
-//=require ./vendor/foundation/js/plugins/foundation.util.mediaQuery.js
-//=require ./vendor/foundation/js/plugins/foundation.util.motion.js
-//=require ./vendor/foundation/js/plugins/foundation.util.nest.js
-//=require ./vendor/foundation/js/plugins/foundation.util.timerAndImageLoader.js
-//=require ./vendor/foundation/js/plugins/foundation.util.touch.js
-//=require ./vendor/foundation/js/plugins/foundation.util.triggers.js
-//=require ./vendor/foundation/js/plugins/foundation.zf.responsiveAccordionTabs.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.abide.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.core.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.drilldown.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.equalizer.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.interchange.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.magellan.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.offcanvas.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.orbit.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.responsiveAccordionTabs.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.responsiveMenu.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.responsiveToggle.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.reveal.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.slider.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.smoothScroll.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.sticky.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.tabs.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.toggler.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.tooltip.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.box.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.imageLoader.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.keyboard.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.mediaQuery.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.motion.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.nest.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.timer.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.touch.min.js
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.util.triggers.min.js
 
 // -- Init Foundation
 $(document).foundation();

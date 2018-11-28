@@ -25,9 +25,8 @@ gulp.task('css', function() {
   gulp.src('./src/styles/*.scss')
     .pipe(sass({
       includePaths: [
-        'src/styles/vendor/foundation/scss',
-        'src/styles/vendor/font-awesome/scss',
-        'src/styles/vendor/slick-carousel/scss'
+        'node_modules/foundation-sites/scss',
+        'node_modules/font-awesome/scss'
       ]}
     ).on('error', showError))
     .pipe(prefix('last 3 versions'))
