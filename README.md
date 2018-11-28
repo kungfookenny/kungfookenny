@@ -19,7 +19,6 @@ Theme for brandonstill.io utilizing [ZURB Foundation](http://foundation.zurb.com
     npm run build
 
   ```
-4. To compile & minify CSS and Javascript assets use `npm run-script watch` or `npm run-script build`
 
 ## Features
 
