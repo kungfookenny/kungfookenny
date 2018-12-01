@@ -2,9 +2,9 @@
 //=require ../../node_modules/what-input/dist/what-input.min.js
 
 // -- Foundation plugins: comment out what you don't need
+//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.core.min.js
 //=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.abide.min.js
 //=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.accordion.min.js
-//=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.core.min.js
 //=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.drilldown.min.js
 //=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.dropdown.min.js
 //=require ../../node_modules/foundation-sites/dist/js/plugins/foundation.dropdownMenu.min.js
