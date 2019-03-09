@@ -6,6 +6,7 @@
     "url": "https://github.com/brandonstill/brandonstill.io"
   },
   "dependencies": {
+    "harp": "*",
     "font-awesome": "~4.7.0",
     "foundation-sites": "^6.4.3",
     "gulp": "^3.9.1",
@@ -19,6 +20,7 @@
     "what-input": "^5.1.3"
   },
   "scripts": {
+    "start": "harp server --port $PORT",
     "watch": "gulp watch",
     "build": "gulp"
   },
