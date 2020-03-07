@@ -6,10 +6,10 @@
     "url": "https://github.com/brandonstill/brandonstill.io"
   },
   "dependencies": {
-    "harp": "*",
+    "harp": "*"
   },
   "scripts": {
-    "start": "harp server --port $PORT",
+    "start": "harp server --port $PORT"
   },
   "private": true
 }
